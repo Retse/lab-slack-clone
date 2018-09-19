@@ -1,0 +1,49 @@
+/*Reset*/ 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+/*Layout*/
+ .container{
+   margin: 0 20px;
+ }
+ /*Header*/
+header .nav-bar ul {
+  display: none;
+}
+header.inicio-slack {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0,0,0,.15);
+}
+
+header .slack-logo {
+  width:130px;
+  float: left;
+}
+header .burger-menu-icon {
+  width: 35px;
+  float: right;
+  padding-top: 23px;
+  
+}
+
+/*Section intro*/
+
+section.intro{
+  margin-top: 90px;
+}
